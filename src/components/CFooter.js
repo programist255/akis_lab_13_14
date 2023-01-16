@@ -11,7 +11,7 @@ import React from 'react';
 // }
 //export default CFooter;
 
-const CFooter = () => {
+export const CFooter = () => {
     let data = new Date();
     return (
         <div>
@@ -21,3 +21,4 @@ const CFooter = () => {
         </div>
     );
 }
+
