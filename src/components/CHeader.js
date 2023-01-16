@@ -6,7 +6,7 @@ class CHeader extends Component{
         return (
             <div className="headerContainter">
                 <img src={logo} className='headerLogo' alt="logo"></img>
-                <h2>Witaj w Reakt</h2>
+                <h2>Witaj w Reakt {this.props.aName + ' ' + this.props.aFamily}</h2>
             </div>
         );
     }

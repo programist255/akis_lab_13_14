@@ -54,6 +54,8 @@ export const CFooter = (props) => {
                 {data.toLocaleDateString('pl-PL')}
                 <br/>
                 Stan pogody: {props.weather}, temperatura: {props.temp}</h4>
+                <br/>
+                {props.children}
         </div>
     );
 }
