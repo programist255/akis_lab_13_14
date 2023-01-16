@@ -16,7 +16,7 @@ export const CFooter = () => {
     return (
         <div>
             <h4> AKiS, prz serwer react. Data: {} 
-                {data.toString()}
+                {data.toLocaleDateString('pl-PL')}
                 {" "}</h4>
         </div>
     );
