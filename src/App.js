@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <CHeader/>
-      <CFooter/>
+      <CFooter weather = 'slonce' temp='25'/>
       
     </div>
   );
