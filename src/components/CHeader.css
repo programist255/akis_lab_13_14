@@ -2,7 +2,7 @@
     display: flex;
 }
 .headerLogo{
-    height: 15vmin;
+    height: 10vmin;
     pointer-events: none;
 }
 .headerContainter h2{
